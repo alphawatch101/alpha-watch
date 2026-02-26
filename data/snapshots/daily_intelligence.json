@@ -1,0 +1,573 @@
+{
+  "tab": "daily_intelligence",
+  "market_state": {
+    "verdict": {
+      "score": 4,
+      "label": "Strong Bull",
+      "color": "green",
+      "signals": {
+        "trend": 1,
+        "breadth": 1,
+        "volatility": 1,
+        "credit": 0,
+        "sentiment": 1
+      },
+      "max_score": 5
+    },
+    "vibe": {
+      "vibe": "risk_off_rotation",
+      "label": "Defensive Rotation Underway",
+      "desc": "Money rotating from growth (-3.7% vs SPY) into defensive sectors (Utilities +8.7%, Staples +7.7% vs SPY). Institutions hedging, not fully exiting equities.",
+      "signals": [
+        {
+          "label": "XLU +8.7% vs SPY (4W)",
+          "direction": "bull"
+        },
+        {
+          "label": "XLP +7.7% vs SPY (4W)",
+          "direction": "bull"
+        },
+        {
+          "label": "XLK -3.4% vs SPY (4W)",
+          "direction": "bear"
+        },
+        {
+          "label": "VIX 18.7",
+          "direction": "bull"
+        },
+        {
+          "label": "Credit: Neutral",
+          "direction": "neut"
+        }
+      ]
+    },
+    "breadth": {
+      "above_50dma_pct": 61.7,
+      "above_200dma_pct": 64.9,
+      "above_50_trend": -7.0,
+      "at_52w_high": 90,
+      "at_52w_low": 14,
+      "ad_ratio_today": 0.79,
+      "n_stocks_analyzed": 499,
+      "signal": 1,
+      "signal_label": "Improving"
+    },
+    "volatility": {
+      "vix_current": 18.7,
+      "vix_20dma": 18.9,
+      "vix_1w_ago": 19.6,
+      "vix_trend": -0.9,
+      "signal": 1,
+      "signal_label": "Calm"
+    },
+    "credit": {
+      "hyg_4w_pct": 0.12,
+      "lqd_4w_pct": 1.16,
+      "spread_4w": -1.05,
+      "signal": 0,
+      "signal_label": "Neutral"
+    },
+    "rally_width": {
+      "spy_4w_pct": -0.54,
+      "rsp_4w_pct": 2.22,
+      "qqq_4w_pct": -2.55,
+      "rsp_vs_spy_spread": 2.76,
+      "spy_current": 691.72,
+      "spy_200dma": 650.55,
+      "spy_pct_above_200": 6.33,
+      "signal": 1,
+      "signal_label": "Broad"
+    },
+    "put_call": {
+      "pc_ratio": 1.15,
+      "put_volume": 144803,
+      "call_volume": 126100,
+      "expiration": "2026-02-26",
+      "signal": -1,
+      "signal_label": "Fearful"
+    },
+    "sectors": {
+      "sectors": {
+        "XLK": {
+          "name": "Technology",
+          "pct_1d": 1.33,
+          "pct_5d": 0.9,
+          "pct_20d": -3.96,
+          "vs_spy_5d": 0.11,
+          "vs_spy_20d": -3.42,
+          "mfi": 41.7,
+          "flow": "TURN_DOWN",
+          "current_price": 142.18
+        },
+        "XLF": {
+          "name": "Financials",
+          "pct_1d": 0.57,
+          "pct_5d": -2.51,
+          "pct_20d": -3.26,
+          "vs_spy_5d": -3.3,
+          "vs_spy_20d": -2.72,
+          "mfi": 27.1,
+          "flow": "OUT",
+          "current_price": 51.27
+        },
+        "XLV": {
+          "name": "Healthcare",
+          "pct_1d": 0.71,
+          "pct_5d": 0.84,
+          "pct_20d": 2.28,
+          "vs_spy_5d": 0.05,
+          "vs_spy_20d": 2.82,
+          "mfi": 44.1,
+          "flow": "TURN_DOWN",
+          "current_price": 158.99
+        },
+        "XLY": {
+          "name": "Discretionary",
+          "pct_1d": 0.3,
+          "pct_5d": 0.06,
+          "pct_20d": -4.56,
+          "vs_spy_5d": -0.73,
+          "vs_spy_20d": -4.02,
+          "mfi": 36.2,
+          "flow": "TURN_DOWN",
+          "current_price": 117.1
+        },
+        "XLP": {
+          "name": "Staples",
+          "pct_1d": -0.75,
+          "pct_5d": 1.17,
+          "pct_20d": 7.11,
+          "vs_spy_5d": 0.38,
+          "vs_spy_20d": 7.65,
+          "mfi": 60.1,
+          "flow": "TURN_UP",
+          "current_price": 89.07
+        },
+        "XLE": {
+          "name": "Energy",
+          "pct_1d": -0.59,
+          "pct_5d": -0.01,
+          "pct_20d": 10.28,
+          "vs_spy_5d": -0.8,
+          "vs_spy_20d": 10.82,
+          "mfi": 52.1,
+          "flow": "NEUTRAL",
+          "current_price": 54.78
+        },
+        "XLU": {
+          "name": "Utilities",
+          "pct_1d": -0.48,
+          "pct_5d": 2.99,
+          "pct_20d": 8.16,
+          "vs_spy_5d": 2.2,
+          "vs_spy_20d": 8.7,
+          "mfi": 79.6,
+          "flow": "IN",
+          "current_price": 46.97
+        },
+        "XLI": {
+          "name": "Industrials",
+          "pct_1d": -0.14,
+          "pct_5d": 0.97,
+          "pct_20d": 7.08,
+          "vs_spy_5d": 0.18,
+          "vs_spy_20d": 7.62,
+          "mfi": 63.5,
+          "flow": "TURN_UP",
+          "current_price": 176.74
+        },
+        "XLB": {
+          "name": "Materials",
+          "pct_1d": -0.14,
+          "pct_5d": 0.5,
+          "pct_20d": 6.61,
+          "vs_spy_5d": -0.29,
+          "vs_spy_20d": 7.15,
+          "mfi": 46.7,
+          "flow": "NEUTRAL",
+          "current_price": 53.28
+        },
+        "XLRE": {
+          "name": "Real Estate",
+          "pct_1d": -0.03,
+          "pct_5d": 0.84,
+          "pct_20d": 5.98,
+          "vs_spy_5d": 0.05,
+          "vs_spy_20d": 6.52,
+          "mfi": 71.2,
+          "flow": "IN",
+          "current_price": 43.72
+        },
+        "XLC": {
+          "name": "Comms",
+          "pct_1d": 0.5,
+          "pct_5d": 1.87,
+          "pct_20d": -0.14,
+          "vs_spy_5d": 1.08,
+          "vs_spy_20d": 0.4,
+          "mfi": 33.9,
+          "flow": "OUT",
+          "current_price": 116.74
+        }
+      },
+      "spy_5d": 0.79,
+      "spy_20d": -0.54
+    }
+  },
+  "macro": {
+    "yield_curve": {
+      "spread_10y2y": {
+        "latest": 0.61,
+        "prior": 0.6,
+        "change": 0.01,
+        "date": "2026-02-24"
+      },
+      "ten_year": {
+        "latest": 4.03,
+        "prior": 4.08,
+        "change": -0.05,
+        "date": "2026-02-23"
+      },
+      "two_year": {
+        "latest": 3.43,
+        "prior": 3.48,
+        "change": -0.05,
+        "date": "2026-02-23"
+      },
+      "interpretation": "steepening",
+      "interpretation_text": "Steepening \u2014 banks earning more on loans vs deposits. Bullish for XLF."
+    },
+    "hy_spread": {
+      "latest": 2.95,
+      "prior": 2.86,
+      "change": 0.09,
+      "date": "2026-02-23",
+      "regime": "very_tight",
+      "regime_text": "HY spreads very tight \u2014 investors accepting minimal extra yield for junk risk. Risk-on."
+    },
+    "mortgage_rate": {
+      "latest": 6.01,
+      "prior": 6.09,
+      "change": -0.08,
+      "date": "2026-02-19"
+    },
+    "consumer_sentiment": {
+      "latest": 56.4,
+      "prior": 52.9,
+      "change": 3.5,
+      "date": "2026-01-01"
+    }
+  },
+  "catalysts": {
+    "economic_calendar": [
+      {
+        "date": "2026-02-27",
+        "event": "PCE Inflation (Jan)",
+        "estimate": "2.4% YoY core",
+        "previous": "2.8%",
+        "impact": "high",
+        "sector_risk": "Rate-sensitives (XLRE, XLU)",
+        "watch_note": "Watch core services, not headline. Shelter costs key.",
+        "hist_beat_spx": "+0.6%",
+        "hist_miss_spx": "-1.2%",
+        "n_samples": 8
+      },
+      {
+        "date": "2026-03-07",
+        "event": "ISM Manufacturing PMI",
+        "estimate": "50.8",
+        "previous": "50.3",
+        "impact": "medium",
+        "sector_risk": "XLI, XLB",
+        "watch_note": "New orders sub-index is the forward-looking read.",
+        "hist_beat_spx": "+0.4%",
+        "hist_miss_spx": "-0.8%",
+        "n_samples": 12
+      },
+      {
+        "date": "2026-03-10",
+        "event": "Non-Farm Payrolls",
+        "estimate": "+185K",
+        "previous": "+256K",
+        "impact": "high",
+        "sector_risk": "XLF, QQQ (rate expectations shift)",
+        "watch_note": "Wage growth (hourly earnings) matters as much as the headline.",
+        "hist_beat_spx": "+0.5%",
+        "hist_miss_spx": "-1.4%",
+        "n_samples": 24
+      },
+      {
+        "date": "2026-03-15",
+        "event": "CPI (Feb)",
+        "estimate": "2.9% headline / 3.1% core",
+        "previous": "3.0%",
+        "impact": "high",
+        "sector_risk": "All sectors \u2014 primary rate pivot driver",
+        "watch_note": "Core services ex-shelter is the Fed's focus metric.",
+        "hist_beat_spx": "+0.7%",
+        "hist_miss_spx": "-1.8%",
+        "n_samples": 12
+      },
+      {
+        "date": "2026-03-22",
+        "event": "FOMC Decision + Powell Press Conference",
+        "estimate": "Hold at 4.25\u20134.5%",
+        "previous": "Hold",
+        "impact": "high",
+        "sector_risk": "XLRE, XLU, growth tech (QQQ)",
+        "watch_note": "Watch dot plot revision + 'higher for longer' vs 'data dependent' language.",
+        "hist_beat_spx": null,
+        "hist_miss_spx": null,
+        "n_samples": 0
+      }
+    ],
+    "upcoming_earnings": [
+      {
+        "ticker": "NVDA",
+        "earnings_date": "2026-02-26",
+        "eps_estimate": null,
+        "rev_estimate": null,
+        "impact": "high"
+      },
+      {
+        "ticker": "META",
+        "earnings_date": "2026-04-30",
+        "eps_estimate": null,
+        "rev_estimate": null,
+        "impact": "high"
+      },
+      {
+        "ticker": "MSFT",
+        "earnings_date": "2026-04-30",
+        "eps_estimate": null,
+        "rev_estimate": null,
+        "impact": "high"
+      },
+      {
+        "ticker": "QCOM",
+        "earnings_date": "2026-04-30",
+        "eps_estimate": null,
+        "rev_estimate": null,
+        "impact": "high"
+      },
+      {
+        "ticker": "LLY",
+        "earnings_date": "2026-04-30",
+        "eps_estimate": null,
+        "rev_estimate": null,
+        "impact": "high"
+      },
+      {
+        "ticker": "AAPL",
+        "earnings_date": "2026-05-01",
+        "eps_estimate": null,
+        "rev_estimate": null,
+        "impact": "high"
+      },
+      {
+        "ticker": "AMZN",
+        "earnings_date": "2026-05-01",
+        "eps_estimate": null,
+        "rev_estimate": null,
+        "impact": "high"
+      }
+    ]
+  },
+  "news": {
+    "items": [
+      {
+        "headline": "TJ Maxx parent\u2019s earnings show discount clothes and home goods are still in high demand",
+        "summary": "TJ Maxx parent company TJX reported a triple beat with its fourth-quarter results on Wednesday, but shares of the off-price apparel and home-fashions retailer slipped as the outlook disappointed.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/tj-maxx-parents-earnings-show-discount-clothes-and-home-goods-are-still-in-high-demand-90fb804d",
+        "datetime": 1772029620,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "TJX discount retail strength suggests consumer resilience despite macro headwinds.",
+        "spx_reaction": "+",
+        "sector_impact": "XRT",
+        "confidence": "high"
+      },
+      {
+        "headline": "HSBC reports a beat and a raise as it leapfrogs Wells Fargo by market cap",
+        "summary": "HSBC\u2019s guidance for 2026 is pushing analysts to raise their stock-price estimates by around 6%",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/hsbc-reports-a-beat-and-a-raise-as-it-leapfrogs-wells-fargo-by-market-cap-0e9f15ee",
+        "datetime": 1772026260,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "HSBC beats and raises; outperforms Wells Fargo on profitability and valuation.",
+        "spx_reaction": "+",
+        "sector_impact": "XLF",
+        "confidence": "high"
+      },
+      {
+        "headline": "Small caps\u2019 \u2018recovery\u2019 is a myth built on unprofitable stocks. Here\u2019s what history says happens next.",
+        "summary": "The Russell Microcap Index is surging \u2014 yet 57% of its members lost money last year. That never ends well.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/small-caps-recovery-is-a-myth-built-on-unprofitable-stocks-heres-what-history-says-happens-next-46d163e3",
+        "datetime": 1772024100,
+        "tier": 2,
+        "tag": "SECTOR",
+        "one_line": "Small-cap rally driven by unprofitable stocks; warns of mean-reversion risk.",
+        "spx_reaction": "-",
+        "sector_impact": "VB",
+        "confidence": "high"
+      },
+      {
+        "headline": "Circle gives crypto investors a reason to cheer by reporting a big jump in profits",
+        "summary": "Circle Internet\u2019s stock soars, as the stablecoin issuer reported a big jump in fourth-quarter profitability.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/circle-gives-crypto-investors-a-reason-to-cheer-by-reporting-a-big-jump-in-profits-f964ac5a",
+        "datetime": 1772022720,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "Circle crypto-profit surge; positive signal for digital asset adoption thesis.",
+        "spx_reaction": "+",
+        "sector_impact": "\u2014",
+        "confidence": "medium"
+      },
+      {
+        "headline": "Lowe\u2019s shares dip after home-improvement retailer warns of \u2018ongoing uncertainty\u2019 in category",
+        "summary": "",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/lowes-shares-dip-after-home-improvement-retailer-warns-of-ongoing-uncertainty-in-category-7bf47d49",
+        "datetime": 1772019960,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "LOW dips on guidance warning despite beats; signals housing market uncertainty.",
+        "spx_reaction": "-",
+        "sector_impact": "XLV",
+        "confidence": "high"
+      },
+      {
+        "headline": "Lowe's earnings beat as sales jump more than 10% despite sluggish housing market",
+        "summary": "Lowe's posted more than 10% sales growth in the fourth quarter at a time when housing turnover and home improvement demand are slow.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/02/25/lowes-low-q4-2025-earnings.html",
+        "datetime": 1772018787,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "LOW beats earnings and sales; contradicts headline #9 on market weakness.",
+        "spx_reaction": "+",
+        "sector_impact": "XRT",
+        "confidence": "high"
+      },
+      {
+        "headline": "HP blames memory-price surge as it forecasts earnings at low end of guidance",
+        "summary": "Computer maker HP blamed the surge in memory chip prices as it forecast earnings for the year to come in at the low end of previously issued guidance.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/hp-blames-memory-price-surge-as-it-forecasts-earnings-at-low-end-of-guidance-dd12410a",
+        "datetime": 1772017080,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "HPQ misses on memory-price headwinds; signals tech input cost inflation.",
+        "spx_reaction": "-",
+        "sector_impact": "XLK",
+        "confidence": "high"
+      },
+      {
+        "headline": "The milestones keep coming for the world\u2019s hottest stock market",
+        "summary": "Exports are booming, the currency is improving and the government is pursuing a very ambitious program of reform to boost the stock market. And it\u2019s working.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/the-milestones-keep-coming-for-the-worlds-hottest-stock-market-66800f58",
+        "datetime": 1772016480,
+        "tier": 2,
+        "tag": "MACRO",
+        "one_line": "Emerging market strength; positive risk-on signal for global equities.",
+        "spx_reaction": "+",
+        "sector_impact": "All",
+        "confidence": "medium"
+      },
+      {
+        "headline": "The maker of Taser stun guns says it\u2019s becoming an AI company as bookings surge",
+        "summary": "Axon Enterprises stock jumped on Wednesday, as the maker of Taser stun guns said its efforts at providing artificial intelligence-driven services to law enforcement clients have led to bookings.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/the-maker-of-taser-stun-guns-says-its-becoming-an-ai-company-as-bookings-surge-6f364373",
+        "datetime": 1772014740,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "AXON pivot to AI with strong bookings; supports tech/defense narrative.",
+        "spx_reaction": "+",
+        "sector_impact": "XLK",
+        "confidence": "high"
+      },
+      {
+        "headline": "American tequila sales are collapsing. Diageo is cutting its dividend in half.",
+        "summary": "Diageo on Wednesday said it was cutting its dividend in half as it reduced its sales outlook, citing American consumer reluctance to spend due to affordability concerns.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/american-tequila-sales-are-collapsing-diageo-is-cutting-its-dividend-in-half-3fc34adb",
+        "datetime": 1772009220,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "Tequila sales collapse; Diageo DGE dividend cut signals consumer weakness.",
+        "spx_reaction": "-",
+        "sector_impact": "XLP",
+        "confidence": "high"
+      },
+      {
+        "headline": "Trump backs stock-trade ban for Congress during State of the Union. Here\u2019s where the effort stands.",
+        "summary": "President Donald Trump got applause from Democrats and Republicans alike when he called in his State of the Union address for Congress to stop insider trading among lawmakers.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/trump-backs-stock-trade-ban-for-congress-during-state-of-the-union-heres-where-the-effort-stands-6cd6fbd8",
+        "datetime": 1771992000,
+        "tier": 2,
+        "tag": "POLICY",
+        "one_line": "Trump backs congressional stock-trade ban; potential regulatory shift on equities.",
+        "spx_reaction": "0",
+        "sector_impact": "\u2014",
+        "confidence": "medium"
+      },
+      {
+        "headline": "Workday\u2019s stock dives as earnings reveal the cost of competing in AI",
+        "summary": "Workday\u2019s margin outlook came up short of expectations as the company steps up AI investments.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/workdays-stock-dives-as-earnings-reveal-the-cost-of-competing-in-ai-3578985b",
+        "datetime": 1771975740,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "WDAY stock dives; AI competition costs erode margins, questions profitability.",
+        "spx_reaction": "-",
+        "sector_impact": "XLK",
+        "confidence": "high"
+      },
+      {
+        "headline": "Nvidia\u2019s earnings report is just a prelude to what should really matter for investors",
+        "summary": "The chip maker\u2019s results are unlikely to be much of a catalyst for the stock as investors look forward to the GTC in March, one analyst says",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/nvidias-earnings-report-is-just-a-prelude-to-what-should-really-matter-for-investors-d185e94c",
+        "datetime": 1771974960,
+        "tier": 2,
+        "tag": "EARN",
+        "one_line": "NVDA earnings prelude to guidance; sets tone for AI capex narrative.",
+        "spx_reaction": "+",
+        "sector_impact": "XLK",
+        "confidence": "high"
+      }
+    ],
+    "tier1_count": 0,
+    "tier2_count": 13,
+    "total_raw": 25
+  },
+  "narratives": {
+    "verdict_text": "**61.7%** of S&P 500 stocks trade above their 50-day moving average \u2014 a strong bull signal (score 4/5). VIX at **18.7** suggests options markets are pricing in calm. Full narrative generation requires the Claude API key to be configured.",
+    "vibe_desc": "Money is fleeing growth and risk\u2014**XLK** and **XLY** are down 3.4% and 4.0% respectively over four weeks\u2014while rotating hard into defensive sectors with steady cash flows, as **XLU** (+8.7%) and **XLP** (+7.7%) capture the flows that normally chase big tech gains. This rotation matters because it signals investors are pricing in either slower earnings growth or higher rates sticking around longer, which would starve the multiple expansion that fueled 2023's rally.\n\n**A sharp decline in bond yields or a Fed pivot signal would reverse this immediately**\u2014defensive sectors outperform when uncertainty is high, but the moment real rates fall, that same money rotates back into **XLK** and **XLY** in days, not weeks.",
+    "sector_why": {
+      "XLK": "Higher rates pressure valuations; tech outflows accelerating.",
+      "XLF": "Rising yields reduce NIM expansion; capital outflows.",
+      "XLV": "Defensive demand amid uncertainty; earnings resilience remains.",
+      "XLY": "Rate sensitivity hits discretionary demand; flows reversing.",
+      "XLP": "Inflation hedge appeal; staples inflows on safety.",
+      "XLE": "Oil strength; energy benefits from elevated commodity prices.",
+      "XLU": "Yield plays attractive; utilities capture inflation-hedging inflows.",
+      "XLI": "Infrastructure demand robust; cyclical revival with inflow support.",
+      "XLB": "Commodity strength; materials benefit from reflation trades.",
+      "XLRE": "Higher rates offset via diversification; steady inflows.",
+      "XLC": "Telecom weakness; dividend yield insufficient for outflows."
+    }
+  },
+  "pipeline_errors": [],
+  "pipeline_elapsed_sec": 4.2,
+  "market_open": true,
+  "generated_at": "2026-02-25T14:51:57.730061+00:00"
+}
